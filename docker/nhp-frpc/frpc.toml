@@ -29,3 +29,10 @@ type = "tcp"
 localIP = "177.7.0.13"
 localPort = 8080
 remotePort = 8000
+
+[[proxies]]
+name = "test-subdomain"
+type = "http"
+localIP = "177.7.0.13"
+localPort = 8080
+subdomain = "test"

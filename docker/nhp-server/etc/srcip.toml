@@ -4,5 +4,5 @@
 # SrcIp: specify the agent source ip. Each source ip can have multiple side source ips.
 # ip: specify a side source ip address to be also passed after successful knock.
 
-[["177.7.0.11"]]
+[["177.7.0.8"]]
 ip = "177.7.0.1"
